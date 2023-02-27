@@ -13,6 +13,7 @@ class UsuarioSeeder extends Seeder
     $usuario = [
         'nome' => 'Guilherme',
         'email' => 'g.ramires2709@outlook.com',
+        'cpf' => '08744583400',
         'telefone' => '51998164196' 
     ];
 

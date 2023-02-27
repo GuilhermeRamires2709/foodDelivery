@@ -50,3 +50,35 @@ in SYSTEMPATH\CodeIgniter.php on line 226.
  1 SYSTEMPATH\CodeIgniter.php(226): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
  2 SYSTEMPATH\CodeIgniter.php(190): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
  3 FCPATH\index.php(55): CodeIgniter\CodeIgniter->initialize()
+ERROR - 2023-02-24 19:45:02 --> mysqli_sql_exception: Unknown column 'criado_em' in 'field list' in C:\xampp\htdocs\foodDelivery\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\foodDelivery\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\foodDelivery\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\foodDelivery\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\foodDelivery\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\foodDelivery\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\foodDelivery\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\foodDelivery\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\foodDelivery\app\Database\Seeds\UsuarioSeeder.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\foodDelivery\system\Database\Seeder.php(146): App\Database\Seeds\UsuarioSeeder->run()
+#9 C:\xampp\htdocs\foodDelivery\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 C:\xampp\htdocs\foodDelivery\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 C:\xampp\htdocs\foodDelivery\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 C:\xampp\htdocs\foodDelivery\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
+ERROR - 2023-02-24 19:45:46 --> mysqli_sql_exception: Unknown column 'criado_em' in 'field list' in C:\xampp\htdocs\foodDelivery\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\foodDelivery\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `us...', 0)
+#1 C:\xampp\htdocs\foodDelivery\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `us...')
+#2 C:\xampp\htdocs\foodDelivery\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `us...')
+#3 C:\xampp\htdocs\foodDelivery\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `us...', Array, false)
+#4 C:\xampp\htdocs\foodDelivery\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\foodDelivery\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\foodDelivery\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\foodDelivery\app\Database\Seeds\UsuarioSeeder.php(20): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\foodDelivery\system\Database\Seeder.php(146): App\Database\Seeds\UsuarioSeeder->run()
+#9 C:\xampp\htdocs\foodDelivery\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#10 C:\xampp\htdocs\foodDelivery\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#11 C:\xampp\htdocs\foodDelivery\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#12 C:\xampp\htdocs\foodDelivery\spark(97): CodeIgniter\CLI\Console->run()
+#13 {main}
