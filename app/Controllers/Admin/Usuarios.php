@@ -18,8 +18,14 @@ class Usuarios extends BaseController
 
     public function index()
     {
-        $usuarios = $this->usuarioModel->findAll();
+        
 
-        dd($usuarios);
+        $data = [
+
+            'titulo' => 'Listando os usuarios',
+            'usuarios' => $this->usuarioModel->findAll()
+        ];
+
+        return view('Admin/Usuarios/index', $data);
     }
 }
