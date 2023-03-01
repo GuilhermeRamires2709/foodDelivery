@@ -7,16 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Food Delivery | <?php echo $this->renderSection('titulo') ?></title>
     <!-- plugins:css -->
-    <link rel="stylesheet" href="http://localhost/foodDelivery/public/admin/vendors/mdi/css/materialdesignicons.min.css">
-    <link rel="stylesheet" href="http://localhost/foodDelivery/public/admin/vendors/base/vendor.bundle.base.css">
+    <link rel="stylesheet" href="<?= site_url('admin/vendors/mdi/css/materialdesignicons.min.css');?>">
+    <link rel="stylesheet" href="<?= site_url('admin/vendors/base/vendor.bundle.base.css')?>;">
     <!-- endinject -->
     <!-- plugin css for this page -->
-    <link rel="stylesheet" href="http://localhost/foodDelivery/public/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css">
+    <link rel="stylesheet" href=<?= site_url('admin/vendors/datatables.net-bs4/dataTables.bootstrap4.css');?>">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="http://localhost/foodDelivery/public/admin/css/style.css">
+    <link rel="stylesheet" href="<?= site_url('admin/css/style.css');?>">
     <!-- endinject -->
-    <link rel="shortcut icon" href="http://localhost/foodDelivery/public/admin/images/favicon.png" />
+    <link rel="shortcut icon" href="<?= site_url('/admin/images/favicon.png');?>">
 
     
 
@@ -273,17 +273,17 @@
     <script src="http://localhost/foodDelivery/public/admin/vendors/datatables.net-bs4/dataTables.bootstrap4.js"></script>
     <!-- End plugin js for this page-->
     <!-- inject:js -->
-    <script src="http://localhost/food/public/admin/js/off-canvas.js"></script>
-    <script src="http://localhost/food/public/admin/js/hoverable-collapse.js"></script>
-    <script src="http://localhost/food/public/admin/js/template.js"></script>
+    <script src="http://localhost/foodDelivery/public/admin/js/off-canvas.js"></script>
+    <script src="http://localhost/foodDelivery/public/admin/js/hoverable-collapse.js"></script>
+    <script src="http://localhost/fooddelivery/public/admin/js/template.js"></script>
     <!-- endinject -->
     <!-- Custom js for this page-->
-    <script src="http://localhost/food/public/admin/js/dashboard.js"></script>
-    <script src="http://localhost/food/public/admin/s/data-table.js"></script>
-    <script src="http://localhost/food/public/admin/js/jquery.dataTables.js"></script>
-    <script src="http://localhost/food/public/admin/js/dataTables.bootstrap4.js"></script>
+    <script src="http://localhost/foodDelivery/public/admin/js/dashboard.js"></script>
+    <script src="http://localhost/fooddelivery/public/admin/s/data-table.js"></script>
+    <script src="http://localhost/foodDelivery/public/admin/js/jquery.dataTables.js"></script>
+    <script src="http://localhost/foodDelivery/public/admin/js/dataTables.bootstrap4.js"></script>
     <!-- End custom js for this page-->
-    <script src="http://localhost/food/public/admin/js/jquery.cookie.js" type="text/javascript"></script>
+    <script src="http://localhost/foodDelivery/public/admin/js/jquery.cookie.js" type="text/javascript"></script>
 
     <!-- Essa section renderizara  os scripts especificos da view-->
     <?php echo $this->renderSection('conteudo') ?>

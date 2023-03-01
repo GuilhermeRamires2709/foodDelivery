@@ -24,6 +24,11 @@
         <div class="card">
             <div class="card-body">
                 <h4 class="card-title"><?php echo $titulo ?></h4>
+
+                <div class="uiwidget">
+                    <label for="tags"> Tags: </label>
+                    <input id="query" name="query" class="form-control bg-light mb-5">
+                </div>
                 
                 <div class="table-responsive">
                     <table class="table table-hover">
