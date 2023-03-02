@@ -1,0 +1,48 @@
+CRITICAL - 2023-03-02 14:31:37 --> Undefined variable: site_url
+in APPPATH\Views\Admin\layout\principal.php on line 268.
+ 1 APPPATH\Views\Admin\layout\principal.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: site_url', 'APPPATH\\Views\\Admin\\layout\\principal.php', 268, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\layout\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Admin/layout/principal', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Admin\Usuarios.php(29): view('Admin/Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 14:32:30 --> Undefined variable: site_url
+in APPPATH\Views\Admin\layout\principal.php on line 268.
+ 1 APPPATH\Views\Admin\layout\principal.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: site_url', 'APPPATH\\Views\\Admin\\layout\\principal.php', 268, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\layout\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Admin/layout/principal', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Admin\Usuarios.php(29): view('Admin/Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 14:34:31 --> Undefined variable: site_url
+in APPPATH\Views\Admin\layout\principal.php on line 268.
+ 1 APPPATH\Views\Admin\layout\principal.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: site_url', 'APPPATH\\Views\\Admin\\layout\\principal.php', 268, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\layout\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Admin/layout/principal', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Admin\Usuarios.php(29): view('Admin/Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-02 14:34:34 --> Undefined variable: site_url
+in APPPATH\Views\Admin\layout\principal.php on line 268.
+ 1 APPPATH\Views\Admin\layout\principal.php(268): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined variable: site_url', 'APPPATH\\Views\\Admin\\layout\\principal.php', 268, [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\Admin\\layout\\principal.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->render('Admin/layout/principal', [], true)
+ 5 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('Admin/Usuarios/index', [], true)
+ 6 APPPATH\Controllers\Admin\Usuarios.php(29): view('Admin/Usuarios/index', [...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
