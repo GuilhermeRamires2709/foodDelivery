@@ -26,46 +26,63 @@
 
 <?= $this->section('scripts'); ?>
 
-<script src="<?php echo site_url("admin/vendors/auto-complete/jquery-ui.js");?>"></script>
-<script> 
+<script src="<?php echo site_url('admin/vendors/auto-complete/jquery-ui.js'); ?>"></script>
+<script>
 
-    $ (function () {
+    $(function () {
+
         $("#query").autocomplete({
-            source: function(request, response){
 
-            $.ajax({
-                url: "<?php echo site_url('admin/usuarios/procurar'); ?>",
-                dataType: 'json',
-                data: {
-                    term:request.term
-                },
-                success: function (data) {
-                    if(data.length<1){
-                        var data = [
-                            {
-                            label: "Usuário não encontrado",
-                            value: -1
+            source: function (request, response) {
+
+                $.ajax({
+
+                    url: "<?php echo site_url('admin/usuarios/procurar'); ?>",
+                    dataType: "json",
+                    data: {
+                        term:request.term
+                    },
+                    success: function (data) {
+
+                        if (data.length < 1) {
+
+                            var data = [
+                                {
+                                    label: 'Usuario não encontrado',
+                                    value: -1
+                                }
+                            ];
+
                         }
-                        ];
-                    }
-                    response(data); //Aqui temos valor no data
-                },
+                        response(data); // Aqui temos valor no data
 
-            }); //Fim do Ajax
-        },
+                    },
 
-        minLenght: 1,
-        select: function (event, ui){
-            if(ui.item.value==-1){
-                $(this).val("");
-                return false;
-            } else{
-                window.location.href='<?php echo site_url('admin/usuarios/show/'); ?>' + ui.item.id;
+                }); // fim ajax
+
+            },
+            minLenght: 1,
+            select: function (event, ui) {
+
+                if (ui.item.value == -1) {
+
+                    $(this).val("");
+                    return false;
+
+                } else {
+
+                    window.location.href = '<?php echo site_url('admin/usuarios/show/'); ?>' + ui.item.id;
+                }
+
             }
-        }
 
-        });
+        }); // fim autocomplete
+
+
+
     });
+
+
 
 </script>
     

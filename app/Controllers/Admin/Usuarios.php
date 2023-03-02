@@ -28,4 +28,10 @@ class Usuarios extends BaseController
 
         return view('Admin/Usuarios/index', $data);
     }
+
+    public function procurar(){
+        echo '<pre>';
+        print_r($this->request->getGet());
+        exit;
+    }
 }
