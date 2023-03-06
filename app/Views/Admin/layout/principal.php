@@ -18,9 +18,10 @@
     <!-- endinject -->
     <link rel="shortcut icon" href="<?= site_url('admin/images/favicon.png');?>">
 
+
     
 
-    <?php echo $this->renderSection('titulo') ?>
+    <?php echo $this->renderSection('estilos') ?>
 
 
 
@@ -286,7 +287,7 @@
     <script src="<?= site_url('admin/js/jquery.cookie.js'); ?>" type="text/javascript"></script>
 
     <!-- Essa section renderizara  os scripts especificos da view-->
-    <?php echo $this->renderSection('conteudo') ?>
+    <?php echo $this->renderSection('scripts') ?>
 
 </body>
 

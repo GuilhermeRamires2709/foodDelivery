@@ -7,7 +7,6 @@
 <?= $this->endsection(); ?>
 <!-- C:\xampp\htdocs\foodDelivery\public\ -->
 
-<link rel="styleseet" href="<?php site_url("admin/vendors/auto-complete/jquery-ui.css");?>" />
 
 <?= $this->section('estilos'); ?>
 
@@ -15,6 +14,7 @@
 
 
 <!-- Aqui enviamos para o template principal o conteudo -->
+
 
 <?= $this->section('conteudo'); ?>
 
@@ -25,66 +25,6 @@
 <!-- Aqui enviamos para o template principal os scripts -->
 
 <?= $this->section('scripts'); ?>
-
-<script src="<?php echo site_url('admin/vendors/auto-complete/jquery-ui.js'); ?>"></script>
-<script>
-
-    $(function () {
-
-        $("#query").autocomplete({
-
-            source: function (request, response) {
-
-                $.ajax({
-
-                    url: "<?php echo site_url('admin/usuarios/procurar'); ?>",
-                    dataType: "json",
-                    data: {
-                        term:request.term
-                    },
-                    success: function (data) {
-
-                        if (data.length < 1) {
-
-                            var data = [
-                                {
-                                    label: 'Usuario não encontrado',
-                                    value: -1
-                                }
-                            ];
-
-                        }
-                        response(data); // Aqui temos valor no data
-
-                    },
-
-                }); // fim ajax
-
-            },
-            minLenght: 1,
-            select: function (event, ui) {
-
-                if (ui.item.value == -1) {
-
-                    $(this).val("");
-                    return false;
-
-                } else {
-
-                    window.location.href = '<?php echo site_url('admin/usuarios/show/'); ?>' + ui.item.id;
-                }
-
-            }
-
-        }); // fim autocomplete
-
-
-
-    });
-
-
-
-</script>
     
 
 <?= $this->endsection(); ?>
