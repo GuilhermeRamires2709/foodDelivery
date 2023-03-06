@@ -81,7 +81,7 @@
                     url: "<?php echo site_url('admin/usuarios/procurar'); ?>",
                     dataType: "json",
                     data: {
-                        term:request.term
+                        term: request.term
                     },
                     success: function (data) {
 

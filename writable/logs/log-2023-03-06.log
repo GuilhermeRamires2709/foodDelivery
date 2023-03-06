@@ -1,0 +1,322 @@
+CRITICAL - 2023-03-06 18:59:25 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:26 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:27 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:29 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:31 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:32 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:36 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:37 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:38 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 18:59:39 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:10 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:13 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:15 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:15 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:15 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:17 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:17 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:19 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:20 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:21 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:22 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:22 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:30 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:31 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:02:40 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 44.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 44, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:10:34 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:10:35 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:18:57 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:18:58 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:19:00 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:26:58 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:26:59 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:38:52 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:38:52 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:40:18 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 19:42:56 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:07:21 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:08:41 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:08:42 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:08:44 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:08:49 --> Undefined property: stdClass::$email
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$email', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:09:01 --> Undefined property: stdClass::$name
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$name', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:09:11 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:09:12 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:12:19 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-03-06 20:19:56 --> Undefined property: stdClass::$nome
+in APPPATH\Controllers\Admin\Usuarios.php on line 45.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined property: stdClass::$nome', 'APPPATH\\Controllers\\Admin\\Usuarios.php', 45, [...])
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->procurar()
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
