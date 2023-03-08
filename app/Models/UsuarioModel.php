@@ -24,7 +24,7 @@ class UsuarioModel extends Model
             return [];
         }
 
-        return $this->select('id', 'nome')
+        return $this->select('*')
                     ->like('nome', $term)
                     ->get()
                     ->getResult();
