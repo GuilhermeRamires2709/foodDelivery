@@ -29,7 +29,7 @@
 
                 <div class="uiwidget">
                     <label for="tags"> Tags: </label>
-                    <input id="query" name="query" class="form-control bg-light mb-5">
+                    <input id="query" name="query" placeholder="Pesquise um usuário" class="form-control bg-light mb-5">
                 </div>
                 
                 <div class="table-responsive">
@@ -46,7 +46,10 @@
                             
                         <?php foreach ($usuarios as $usuario): ?>
                         <tr>
-                        <td><?php echo $usuario->nome; ?></td>
+                            
+                        <td>
+                            <a href="<?= site_url('admin/usuarios/$usuario->id'); ?>"> <?php echo $usuario->nome; ?></a>    
+                        </td>
                         <td><?php echo $usuario->email; ?></td>
                         <td><?php echo $usuario->cpf; ?></td>
                         <td><?php echo ($usuario->ativo ? '<label class="badge badge-primary">Sim</label>' : '<label class="badge badge-danger">Não</label>'); ?> </td>

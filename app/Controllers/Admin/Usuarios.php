@@ -29,6 +29,12 @@ class Usuarios extends BaseController
         return view('Admin/Usuarios/index', $data);
     }
 
+    /**
+     * @uso Controller usuarios no metodo procurar com o autocomplete
+     * @param string term
+     * @return array usuarios
+     */
+
     public function procurar(){
         
         if(!$this->request->isAJAX()){
@@ -49,7 +55,25 @@ class Usuarios extends BaseController
         }
 
         return $this->response->setJSON($retorno);
+    }
+    
+    public function show($id = null){
+        $usuario = $this->buscaUsuarioOu404($id);
+        $data = [
+            'titulo' => "Detalhando o usuário $usuario->nome",
+            'usuario' => $usuario,
+        ];
+        return view('Admin/Usuarios/show', $data);
+        }
+    private function buscaUsuarioOu404(int $id = null){
 
+        if (!$id || !$usuario = $this->usuarioModel->where('id', $id)->first()){
+            throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o usuário $id");
+        }
+
+        return $usuario;
+
+    }
 
 
         /*echo '<pre>';
@@ -57,5 +81,5 @@ class Usuarios extends BaseController
         exit; */
         
         
-    }
+    
 }
