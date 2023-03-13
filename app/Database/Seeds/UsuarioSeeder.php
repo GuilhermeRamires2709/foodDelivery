@@ -20,6 +20,7 @@ class UsuarioSeeder extends Seeder
     $usuario_model->protect(false)->insert($usuario);
 
     dd($usuario_model->errors());
+    
 
     }
 }

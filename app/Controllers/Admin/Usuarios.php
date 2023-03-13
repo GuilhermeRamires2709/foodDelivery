@@ -10,15 +10,15 @@ class Usuarios extends BaseController
 
     public function __construct()
     {
-        $this->usuarioModel = new \App\Models\UsuarioModel();    
+        $this->usuarioModel = new \App\Models\UsuarioModel();
     }
-    
 
-    
+
+
 
     public function index()
     {
-        
+
 
         $data = [
 
@@ -35,9 +35,10 @@ class Usuarios extends BaseController
      * @return array usuarios
      */
 
-    public function procurar(){
-        
-        if(!$this->request->isAJAX()){
+    public function procurar()
+    {
+
+        if (!$this->request->isAJAX()) {
             exit('página não encontrada');
         }
 
@@ -45,41 +46,50 @@ class Usuarios extends BaseController
 
         $retorno = [];
 
-        foreach ($usuarios as $usuario){
-            
+        foreach ($usuarios as $usuario) {
+
             $data['id'] = $usuario->id;
             $data['value'] = $usuario->nome;
 
-            $retorno[]=$data;
-
+            $retorno[] = $data;
         }
 
         return $this->response->setJSON($retorno);
     }
-    
-    public function show($id = null){
+
+    public function show($id = null)
+    {
+        
         $usuario = $this->buscaUsuarioOu404($id);
         $data = [
             'titulo' => "Detalhando o usuário $usuario->nome",
             'usuario' => $usuario,
         ];
         return view('Admin/Usuarios/show', $data);
-        }
-    private function buscaUsuarioOu404(int $id = null){
+    }
+    public function editar($id = null)
+    {
+        
+        $usuario = $this->buscaUsuarioOu404($id);
+        $data = [
+            'titulo' => "Editando o usuário $usuario->nome",
+            'usuario' => $usuario,
+        ];
+        return view('Admin/Usuarios/editar', $data);
+    }
+    private function buscaUsuarioOu404(int $id = null)
+    {
 
-        if (!$id || !$usuario = $this->usuarioModel->where('id', $id)->first()){
+        if (!$id || !$usuario = $this->usuarioModel->where('id', $id)->first()) {
             throw \CodeIgniter\Exceptions\PageNotFoundException::forPageNotFound("Não encontramos o usuário $id");
         }
 
         return $usuario;
-
     }
 
 
-        /*echo '<pre>';
+
+    /*echo '<pre>';
         print_r($this->request->getGet());
         exit; */
-        
-        
-    
 }

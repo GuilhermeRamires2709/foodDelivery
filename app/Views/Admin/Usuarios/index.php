@@ -48,7 +48,7 @@
                         <tr>
                             
                         <td>
-                            <a href="<?= site_url('admin/usuarios/$usuario->id'); ?>"> <?php echo $usuario->nome; ?></a>    
+                            <a href="<?= site_url('admin/usuarios/show/'.$usuario->id); ?>"> <?php echo $usuario->nome; ?></a>    
                         </td>
                         <td><?php echo $usuario->email; ?></td>
                         <td><?php echo $usuario->cpf; ?></td>
