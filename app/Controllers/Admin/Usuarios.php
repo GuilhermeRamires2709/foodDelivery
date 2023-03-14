@@ -26,6 +26,7 @@ class Usuarios extends BaseController
             'usuarios' => $this->usuarioModel->findAll()
         ];
 
+        session()->set('Sucesso', 'Olá Lucio, que bom que está conosco.');
         return view('Admin/Usuarios/index', $data);
     }
 
@@ -87,6 +88,55 @@ class Usuarios extends BaseController
         return $usuario;
     }
 
+    public function atualizar($id = null){
+
+        if ($this->request->getMethod() === 'post'){
+
+            $usuario = $this->buscaUsuarioOu404($id);
+            
+
+
+            $post = $this->request->getPost();
+
+
+            if(empty($post['password'])){
+                $this->usuarioModel->desabilitaValidacaoSenha();
+                unset($post['password']);
+                unset($post['password_confirmation']);
+
+            }
+
+            $usuario->fill($post);
+
+            if(!$usuario->hasChanged()){
+
+                return redirect()->back()->with('atencao', 'Não Há dados para atualizar');
+
+            }
+
+
+            if ($this->usuarioModel->protect(false)->save($usuario)){
+
+                return redirect()->to(site_url("admin/usuarios/show/".$usuario->id))->with('sucesso', 'Usuário '.$usuario->nome.' atualizado com sucesso');
+
+            } else {
+                return redirect()->back()->with('errors_model', $this->usuarioModel->error())
+                ->with('atencao', 'Por Favor, corrija os dados abaixo')
+                ->withInput();
+            }
+
+            
+
+            
+
+
+        } else{
+            return redirect()->back();
+        }
+        
+
+
+    }
 
 
     /*echo '<pre>';

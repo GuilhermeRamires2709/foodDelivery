@@ -17,23 +17,26 @@ class UsuarioModel extends Model
     protected $deletedField     = 'deletado_em'; 
 
     protected $validationRules = [
-        'nome' => 'required|min_lenght[4]|max_lenght[120]',
+        'nome' => 'required|min_length[4]|max_length[120]',
         'email' => 'required|valid_email|is_unique[usuarios.email]',
-        'cpf' => 'required|is_unique[usuarios.cpf]|exact_lenght[14]',
-        'password' => 'required|min_lenght[6]',
+        'cpf' => 'required|is_unique[usuarios.cpf]|exact_length[14]',
+        'password' => 'required|min_length[6]',
         'password_confirm' => 'required_with[password] | matches[password]'
 
     ];
     protected $validationMesages = [
             'nome' => [
-                'required' => 'Esse campo é obrigatório',
+                'required' => 'O campo nome é obrigatório',
             ],
             'cpf' => [
-                'required' => 'Esse campo é obrigatório',
+                'required' => 'O campo CPF é obrigatório',
                 'is_unique' => 'Este cpf já está vinculado a uma conta.'
             ],
-            'cpf' => [
-                'required' => 'Esse campo é obrigatório',
+            'telefone' => [
+                'required' => 'O campo Telefone é obrigatório',
+            ],
+            'email' => [
+                'required' => 'O campo E-mail é obrigatório',
                 'is_unique' => 'Este e-mail já está vinculado a uma conta.'
             ],
             
@@ -53,6 +56,10 @@ class UsuarioModel extends Model
                     ->getResult();
         
         
+    }
+    public function desabilitaValidacaoSenha(){
+        unset($this->validationRules['password']);
+        unset($this->validationRules['password_confirmation']);
     }
 
  }
