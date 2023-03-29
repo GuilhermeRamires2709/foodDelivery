@@ -45,6 +45,11 @@ class CriaTabelaUsuarios extends Migration
                 'default' => false
 
             ],
+            'password_hash'=>[
+                'type' => 'VARCHAR',
+                'constraint' => '255',
+
+            ],
             'ativacao_hash'=>[
                 'type' => 'VARCHAR',
                 'constraint' => '64',

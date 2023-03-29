@@ -41,7 +41,16 @@ class UsuarioModel extends Model
             ],
             
     ];
-    
+    // Eventos CallBack
+    protected $beforeInsert = ['hashPassword'];
+    protected $beforeUpdate = ['hashPassword'];
+
+
+    protected function hashPassword(array $data){
+        if(isset($data['data']['passwordHash'])){
+
+        }
+    }
 
 
     public function procurar($term){
