@@ -19,9 +19,8 @@ class UsuarioModel extends Model
     protected $validationRules = [
         'nome' => 'required|min_length[4]|max_length[120]',
         'email' => 'required|valid_email|is_unique[usuarios.email]',
-        'cpf' => 'required|is_unique[usuarios.cpf]|exact_length[14]',
-        'password' => 'required|min_length[6]',
-        'password_confirm' => 'required_with[password] | matches[password]'
+        'cpf' => 'required|is_unique[usuarios.cpf]|exact_length[14]'
+        //'password' => 'required|min_length[6]'
 
     ];
     protected $validationMesages = [
@@ -41,15 +40,21 @@ class UsuarioModel extends Model
             ],
             
     ];
-    // Eventos CallBack
+    // Eventos CallBack para criptografar senha
     protected $beforeInsert = ['hashPassword'];
     protected $beforeUpdate = ['hashPassword'];
 
-
+    // A function abaixo criptografa a senha
     protected function hashPassword(array $data){
-        if(isset($data['data']['passwordHash'])){
+        if(isset($data['data']['password'])){
+            $data['data']['password_hash'] = password_hash($data['data']['password'], PASSWORD_DEFAULT);
 
+            unset($data['data']['password']);
+            unset($data['data']['password_confirmation']);
         }
+
+        
+        return $data;
     }
 
 
