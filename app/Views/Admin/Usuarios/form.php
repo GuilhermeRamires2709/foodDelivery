@@ -1,7 +1,7 @@
 <div class='form-row'>
     <div class="form-group col-md-4">
         <label for="nome">Nome:</label>
-        <input type="text" class="form-control" name="nome" id="nome" value="<?php echo old('nome', esc($usuario->nome));?>">
+        <input type="text" class="form-control" name="nome" id="nome" value="<?php echo old('nome', esc($usuario->nome)); ?>">
     </div>
     <div class="form-group col-md-2">
         <label for="cpf">CPF:</label>
@@ -25,38 +25,40 @@
         <label for="nome">Confirmação de senha:</label>
         <input type="password" class="form-control" name="password_confirmation" id="password_confirmation">
     </div>
-    
+
     <div class="form-group col-md-2">
         <label for="ativo">Ativo:</label>
         <select class="form-control" name="ativo">
 
-            <?php if ($usuario->id): ?>
-                <option value='1' <?php echo($usuario->ativo? 'selected' : ''); ?>>Sim</option>
-                <option value='0' <?php echo(!$usuario->ativo? 'selected' : ''); ?>>Não</option>
-            <?php else: ?>
+            <?php if ($usuario->id) : ?>
+                <option value='1' <?php echo ($usuario->ativo ? 'selected' : ''); ?>>Sim</option>
+                <option value='0' <?php echo (!$usuario->ativo ? 'selected' : ''); ?>>Não</option>
+            <?php else : ?>
                 <option value='1'>Sim</option>
                 <option value='0' selected="">Não</option>
             <?php endif; ?>
         </select>
-        
+
     </div>
     <div class="form-group col-md-2">
         <label for="is_admin">Perfil de acesso:</label>
         <select class="form-control" name="is_admin">
 
-            <?php if ($usuario->id): ?>
-                <option value='1' <?php echo($usuario->is_admin? 'selected' : ''); ?>>Administrador</option>
-                <option value='0' <?php echo(!$usuario->is_admin? 'selected' : ''); ?>>Cliente</option>
-            <?php else: ?>
-                <option value='1' >Sim</option>
-                <option value='0' selected="">Não</option>
+            <?php if ($usuario->id) : ?>
+                <option value='1' <?php echo ($usuario->is_admin ? 'selected' : ''); ?>>Administrador</option>
+                <option value='0' <?php echo (!$usuario->is_admin ? 'selected' : ''); ?>>Cliente</option>
+            <?php else : ?>
+                <option value='1'>Administrador</option>
+                <option value='0' selected="">Cliente</option>
             <?php endif; ?>
         </select>
-        
+
     </div>
-    
+
 
 </div>
 
-    <button type="submit" class="btn btn-primary mr-2">Atualizar</button>
-    <button class="btn btn-light">Voltar</button>
+<button type="submit" class="btn btn-primary mr-2 btn-sm">
+    <i class="mdi mdi-checkbox-marked-circle btn-icon-prepend"></i>
+    Salvar
+</button>

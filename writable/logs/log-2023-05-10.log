@@ -418,3 +418,413 @@ in APPPATH\Controllers\Admin\Usuarios.php on line 81.
  5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
 INFO - 2023-05-10 14:00:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
 INFO - 2023-05-10 14:01:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:30:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:30:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:30:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:30:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:32:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:40:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:40:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:42:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:44:19 --> CSRF token verified.
+INFO - 2023-05-10 15:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:44:23 --> CSRF token verified.
+INFO - 2023-05-10 15:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 15:48:06 --> A ação que você requisitou não é permitida.
+in SYSTEMPATH\Security\Security.php on line 306.
+ 1 SYSTEMPATH\Security\Security.php(306): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+ 2 SYSTEMPATH\Filters\CSRF.php(55): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+ 3 SYSTEMPATH\Filters\Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 4 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('admin/usuarios/criar', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 15:48:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:48:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:53:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:54:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:54:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 15:54:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 15:54:58 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:58 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:58 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:58 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:58 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:58 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 15:54:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 15:54:59 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:59 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:59 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:59 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:59 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 15:54:59 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 16:08:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 16:09:00 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:00 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:00 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:00 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:00 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:00 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 16:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 16:09:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:46 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:09:47 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 16:10:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 16:10:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:10:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:10:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:10:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:10:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:10:29 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 16:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 16:20:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:23 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 119
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(119): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->editar('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 16:20:41 --> CSRF token verified.
+INFO - 2023-05-10 16:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:20:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 16:20:41 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:20:42 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2023-05-10 16:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:20:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:21:48 --> CSRF token verified.
+INFO - 2023-05-10 16:21:48 --> CSRF token verified.
+INFO - 2023-05-10 16:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:22:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:22:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:22:50 --> CSRF token verified.
+INFO - 2023-05-10 16:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2023-05-10 16:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-05-10 16:22:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'logo.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:22:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'logo-mini.svg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:22:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face2.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:22:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face5.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:22:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face4.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-05-10 16:22:50 --> Argument 1 passed to App\Controllers\Admin\Usuarios::buscaUsuarioOu404() must be of the type int or null, string given, called in C:\xampp\htdocs\foodDelivery\app\Controllers\Admin\Usuarios.php on line 109
+in APPPATH\Controllers\Admin\Usuarios.php on line 126.
+ 1 APPPATH\Controllers\Admin\Usuarios.php(109): App\Controllers\Admin\Usuarios->buscaUsuarioOu404('images')
+ 2 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Usuarios->show('images', 'faces', 'face3.jpg')
+ 3 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Usuarios))
+ 4 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
