@@ -56,7 +56,7 @@
             <div class="mt-4">
             <a href="<?php echo site_url('admin/usuarios/editar/' .$usuario->id); ?>" class="btn btn-dark btn-sm">Editar</a>
             
-            <a href="<?php echo site_url('admin/usuarios/apagar/' .$usuario->id); ?>" class="btn btn-danger btn-sm">Apagar</a>
+            <a href="<?php echo site_url('admin/usuarios/excluir/' .$usuario->id); ?>" class="btn btn-danger btn-sm">Excluir</a>
             
             <a href="<?= site_url('admin/usuarios'); ?>" class="btn btn-light text-dark btn-sm">Voltar</a>
             </div>
