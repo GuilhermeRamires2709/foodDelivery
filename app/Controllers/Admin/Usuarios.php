@@ -24,7 +24,9 @@ class Usuarios extends BaseController
         $data = [
 
             'titulo' => 'Listando os usuarios',
-            'usuarios' => $this->usuarioModel->withDeleted(true)->findAll()
+            'usuarios' => $this->usuarioModel->withDeleted(true)->paginate(5),
+            'pager' => $this->usuarioModel->pager,
+
         ];
 
         session()->set('Sucesso', 'Olá Lucio, que bom que está conosco.');
@@ -112,6 +114,14 @@ class Usuarios extends BaseController
     {
 
         $usuario = $this->buscaUsuarioOu404($id);
+
+        if ($usuario->deletado_em != null){
+
+            return redirect()->back()->with('info','O usuário ' .$usuario->nome. ' encontra-se excluído. Não é possível editá-lo!');
+
+        }
+
+
         $data = [
             'titulo' => "Editando o usuário $usuario->nome",
             'usuario' => $usuario,
@@ -135,7 +145,11 @@ class Usuarios extends BaseController
 
             $usuario = $this->buscaUsuarioOu404($id);
 
+            if ($usuario->deletado_em != null){
 
+                return redirect()->back()->with('info','O usuário ' .$usuario->nome. ' encontra-se excluído. Não é possível atualiza-lo!');
+    
+            }
 
             $post = $this->request->getPost();
 
@@ -171,6 +185,12 @@ class Usuarios extends BaseController
     {
 
         $usuario = $this->buscaUsuarioOu404($id);
+
+        if ($usuario->deletado_em != null){
+
+            return redirect()->back()->with('info','O usuário ' .$usuario->nome. ' já encontra-se excluído. Não é possível exclui-lo novamente!');
+
+        }
 
 
         if ($usuario->is_admin) {

@@ -21,17 +21,17 @@
 <?= $this->section('conteudo'); ?>
 
 <div class="row">
-    
+
     <div class="col-lg-6 grid-margin stretch-card">
         <div class="card">
             <div class="card-header bg-primary pb-2 pt-2">
-                <h4 class="card-text text-white"> <?=  esc($titulo); ?></h4>
+                <h4 class="card-text text-white"> <?= esc($titulo); ?></h4>
             </div>
             <p class="card-text">
                 <span class="font-weight-bold">Nome:</span>
                 <?php echo esc($usuario->nome); ?>
             </p>
-                
+
             <p class="card-text">
                 <span class="font-weight-bold">E-mail:</span>
                 <?php echo esc($usuario->email); ?>
@@ -48,22 +48,60 @@
                 <span class="font-weight-bold">Criado:</span>
                 <?php echo esc($usuario->criado_em->humanize()); ?>
             </p>
-            <p class="card-text">
-                <span class="font-weight-bold">Atualizado:</span>
-                <?php echo esc($usuario->atualizado_em->humanize()); ?>
-            </p>
+
+            <?php if ($usuario->deletado_em == null) : ?>
+
+                <p class="card-text">
+                    <span class="font-weight-bold">Atualizado:</span>
+                    <?php echo esc($usuario->atualizado_em->humanize()); ?>
+                </p>
+
+            <?php else : ?>
+
+                <p class="card-text">
+                    <span class="font-weight-bold text-danger">Deletado:</span>
+                    <?php echo esc($usuario->deletado_em->humanize()); ?>
+                </p>
+
+            <?php endif; ?>
 
             <div class="mt-4">
-            <a href="<?php echo site_url('admin/usuarios/editar/' .$usuario->id); ?>" class="btn btn-dark btn-sm">Editar</a>
-            
-            <a href="<?php echo site_url('admin/usuarios/excluir/' .$usuario->id); ?>" class="btn btn-danger btn-sm">Excluir</a>
-            
-            <a href="<?= site_url('admin/usuarios'); ?>" class="btn btn-light text-dark btn-sm">Voltar</a>
+
+                <?php if ($usuario->deletado_em == null) : ?>
+
+
+                    <a href="<?php echo site_url('admin/usuarios/editar/' . $usuario->id); ?>" class="btn btn-dark btn-sm">Editar</a>
+
+                    <a href="<?php echo site_url('admin/usuarios/excluir/' . $usuario->id); ?>" class="btn btn-danger btn-sm">Excluir</a>
+
+
+                    <a href="<?= site_url('admin/usuarios'); ?>" class="btn btn-light text-dark btn-sm">Voltar</a>
+
+                <?php else : ?>
+
+
+                    <a href="<?= site_url('admin/usuarios'); ?>" class="btn btn-light text-dark btn-sm">Voltar</a>
+                    <a href="<?php echo site_url('admin/usuarios/desfazerexclusao/' . $usuario->id); ?>" class="btn btn-dark btn-sm">
+
+                        <i class="mdi mdi-share-undo btn-icon-prepend"></i>
+                        Desfazer
+
+                    </a>
+                <?php endif; ?>
+
+
+
+
             </div>
 
 
 
-       </div>
+
+
+
+
+
+        </div>
     </div>
 
 </div>

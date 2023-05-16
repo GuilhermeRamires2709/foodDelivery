@@ -77,6 +77,9 @@
                             <?php endforeach; ?>
                         </tbody>
                     </table>
+                    <div class="mt-3">
+                        <?= $pager->links() ?>
+                    </div>
                 </div>
             </div>
         </div>
