@@ -78,6 +78,16 @@ class UsuarioModel extends Model
         
         
     }
+    public function buscaUsuarioPorEmail(string $email){
+        
+        return $this->where('email', $email)->first();
+
+        /**
+         * @uso Class Autenticacao
+         * @param string $email
+         * @return objecto $usuario
+         */
+    }
     public function desabilitaValidacaoSenha(){
         unset($this->validationRules['password']);
         unset($this->validationRules['password_confirmation']);
